@@ -1,0 +1,43 @@
+# Herramientas de asistencia: estado y configuración locales
+.cortex/
+.codex/
+.agents/
+
+# Configuración local de editores
+.vscode/
+.idea/
+*.code-workspace
+*.suo
+*.user
+*.swp
+*.swo
+*~
+
+# Capturas y archivos de revisión local
+.preview/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Variables de entorno y configuración privada local
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.local
+
+# Registros, cachés y archivos temporales
+*.log
+*.tmp
+*.temp
+.cache/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+
+# Entornos y dependencias locales, si se añaden herramientas
+.venv/
+venv/
+node_modules/
